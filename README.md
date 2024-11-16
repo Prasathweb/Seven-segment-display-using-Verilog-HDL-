@@ -1,4 +1,4 @@
-# Seven segment display using Verilog HDL
+# Exp No:2 Seven segment display using Verilog HDL
 
 
 ## Aim
