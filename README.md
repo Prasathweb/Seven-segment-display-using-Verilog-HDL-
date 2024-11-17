@@ -1,4 +1,4 @@
-# Exp No:2 Seven segment display using Verilog HDL
+# Exp No:2 Write and Simulate Seven segment display using Verilog HDL and verify with testbench
 
 
 ## Aim
