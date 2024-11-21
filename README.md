@@ -36,24 +36,43 @@ Capture screenshots of the waveform and save the simulation logs. These will be 
 
 
 ## Verilog Code for Seven-Segment Display
+
 module seven_segment(seg_in,s); 
+
     input [3:0]seg_in; 
+    
     output reg [6:0]s; 
+    
     always @(seg_in) begin 
+    
         case(seg_in) 
+        
             4'd0: s=7'b0111111; 
+            
             4'd1: s=7'b0010010; 
+            
             4'd2: s=7'b1011011; 
+            
             4'd3: s=7'b1001111; 
+            
             4'd4: s=7'b1100110; 
+            
             4'd5: s=7'b1101101; 
+            
             4'd6: s=7'b1111101; 
+            
             4'd7: s=7'b0000111; 
+            
             4'd8: s=7'b1111111; 
+            
             4'd9: s=7'b1101111; 
+            
             default: s=7'b0000000; 
+            
         endcase 
+        
     end 
+    
 endmodule
 
 
